@@ -10,6 +10,7 @@
 .menu h3 {
   font-size: 24px;
   z-index: 10;
+  font-weight: 500;
 }
 
 .menu h2 {
@@ -17,6 +18,16 @@
   text-align: center;
   z-index: 10;
   color: white;
+  max-width: 70%;
+  font-weight: 500;
+}
+
+.menu h4 {
+  text-align: center;
+  z-index: 10;
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
 }
 
 .miranha {
