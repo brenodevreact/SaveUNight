@@ -1,9 +1,11 @@
 import Link from "next/link";
+import "./style.css"
 
 const Header = () => {
   return (
-    <header>
-        <img src="Logo" alt="Logo" />
+    <header className="header">
+      
+        <img src="" alt="Logo" />
 
         <nav>
             <ul>
