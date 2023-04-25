@@ -1,0 +1,93 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  justify-content: center;
+  height: 65%;
+}
+
+.menu h3 {
+  font-size: 24px;
+  z-index: 10;
+}
+
+.menu h2 {
+  font-size: 40px;
+  text-align: center;
+  z-index: 10;
+  color: white;
+}
+
+.miranha {
+  position: absolute;
+  right: 0px;
+  top: 100px;
+}
+
+.container .ellipsis {
+  position: absolute;
+  left: 0px;
+  top: 400px;
+}
+
+.menu button {
+  width: 273px;
+  height: 97px;
+  background-color: #faff00;
+  border-radius: 20px;
+  border: none;
+  color: #000000;
+
+  font-size: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.divButton {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.divButton a:visited {
+  color: #000000;
+}
+
+.container .poo2 {
+  position: absolute;
+  left: 0px;
+  top: 450px;
+  animation: float 7s ease-in-out infinite; /* Define a animação com duração de 3 segundos, usando a função de temporização ease-in-out e repetição infinita */
+}
+
+@keyframes float {
+  0% {
+    transform: translate(
+      0,
+      0
+    ); /* Define a posição inicial da imagem sem nenhuma translação */
+  }
+  50% {
+    transform: translate(
+      0,
+      10px
+    ); /* Define a posição intermediária da imagem com uma translação de 10 pixels para baixo */
+  }
+  100% {
+    transform: translate(
+      0,
+      0
+    ); /* Define a posição final da imagem de volta à posição inicial sem nenhuma translação */
+  }
+
+  0% {
+    transform: translate(0, 0) rotate(0deg); /* Define a posição inicial da imagem sem translação e sem rotação */
+  }
+
+  100% {
+    transform: translate(0, 0) rotate(360deg); /* Define a posição final da imagem de volta à posição inicial sem translação e sem rotação */
+  }
+}

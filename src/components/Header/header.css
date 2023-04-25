@@ -19,12 +19,15 @@
     font-weight: bold;
 }
 
+.header nav ul a:visited {
+    color: white;
+}
+
 .header_image {
     width: 273px;
     height: 94px;
 
     cursor: pointer;
 }
-
 
 
