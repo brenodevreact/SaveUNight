@@ -1,7 +1,7 @@
 import '../styles/globals.css'
-import { Montserrat } from 'next/font/google'
+import { Inter } from 'next/font/google'
 
-const font = Montserrat({ subsets: ['latin'] })
+const font = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'SaveUNight',

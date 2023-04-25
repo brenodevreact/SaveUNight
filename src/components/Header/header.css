@@ -14,6 +14,16 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header_image {
+    width: 273px;
+    height: 94px;
+
+    cursor: pointer;
 }
 
 
