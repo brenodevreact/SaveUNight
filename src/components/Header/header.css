@@ -1,33 +1,31 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-    padding: 50px;
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    align-items: center;
+  padding: 50px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .header nav ul {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .header nav ul a:visited {
-    color: white;
+  color: white;
 }
 
 .header_image {
-    width: 273px;
-    height: 94px;
+  width: 233px;
+  height: 79px;
 
-    cursor: pointer;
+  cursor: pointer;
 }
-
-

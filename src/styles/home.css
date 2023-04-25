@@ -4,3 +4,8 @@ main {
   max-width: 1200px;
   height: 100vh;
 }
+
+.rectangle_under {
+  position: absolute;
+  bottom: 0px;
+}

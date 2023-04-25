@@ -13,8 +13,10 @@
     "@types/react": "18.0.38",
     "@types/react-dom": "18.0.11",
     "@types/styled-components": "^5.1.26",
+    "aos": "^3.0.0-beta.6",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
+    "framer-motion": "^10.12.4",
     "next": "13.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -23,6 +25,7 @@
   },
   "devDependencies": {
     "@svgr/webpack": "^7.0.0",
+    "@types/aos": "^3.0.4",
     "babel-plugin-styled-components": "^2.1.1"
   }
 }
