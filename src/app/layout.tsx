@@ -17,8 +17,6 @@ export default function RootLayout({
     <html lang="pt-br">
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <body className={font.className}>{children}</body>
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script>AOS.init();</script>
     </html>
   );
 }
