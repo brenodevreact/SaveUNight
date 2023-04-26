@@ -1,0 +1,25 @@
+.title-movies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  gap: 28px;
+}
+
+.buttons-movies {
+  display: flex;
+  gap: 24px;
+}
+
+.buttons-movies button {
+  background-color: var(--brand1);
+
+  width: 187px;
+  height: 49px;
+  border-radius: 8px;
+
+  border: none;
+  cursor: pointer;
+}
