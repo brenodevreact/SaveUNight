@@ -131,3 +131,42 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+:root {
+  --brand1: #27b8c1;
+}
+
+.title1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.title2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.title3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.title4 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.text1 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.text2 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text3 {
+  font-size: 12px;
+  font-weight: 500;
+}

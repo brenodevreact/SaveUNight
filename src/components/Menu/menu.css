@@ -45,7 +45,7 @@
 .menu button {
   width: 273px;
   height: 97px;
-  background-color: #27b8c1;
+  background-color: var(--brand1);
   border-radius: 20px;
   border: none;
   color: #000000;

@@ -1,0 +1,32 @@
+.filter-div {
+  width: 90%;
+  max-width: 883px;
+
+  background-color: var(--brand1);
+
+  border-radius: 20px;
+}
+
+.filter-div ul {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.filter-div ul li {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.filter-div ul li:hover {
+  box-shadow: 0px 0px 1px 0px #801c1c;
+  border-radius: 5px;
+}
