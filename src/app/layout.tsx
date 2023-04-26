@@ -1,7 +1,7 @@
 import "../styles/globals.css";
-import { Inter } from "next/font/google";
+import { League_Spartan } from "next/font/google";
 
-const font = Inter({ subsets: ["latin"] });
+const font = League_Spartan({ subsets: ["latin"] });
 
 export const metadata = {
   title: "SaveUNight",
@@ -15,7 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={font.className}>{children}</body>
+      <body className={`${font.className} containerBackground`}>
+        {children}
+      </body>
     </html>
   );
 }

@@ -103,10 +103,27 @@ section {
 }
 body {
   line-height: 1;
-  background-color: #041331;
+  background-color: none;
   color: white;
   height: 100%;
   overflow-y: auto;
+}
+
+.containerBackground {
+  position: relative;
+}
+
+.containerBackground::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../assets/streaming.jpeg");
+  opacity: 100%;
+  z-index: -1;
+  filter: blur(2px) brightness(60%) contrast(80%);
 }
 
 ol,

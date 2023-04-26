@@ -1,9 +1,12 @@
+.main-films {
+  min-height: 100vh;
+}
+
 .title-movies {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
 
   gap: 28px;
 }

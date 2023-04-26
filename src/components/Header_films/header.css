@@ -8,27 +8,18 @@
   max-width: 1200px;
   margin: 0 auto;
   align-items: center;
-  z-index: 10;
-  opacity: 100%;
 }
 
 .header h2 {
   width: 233px;
   height: 79px;
   cursor: pointer;
-  background-color: white;
+  background-color: var(--brand1);
   border-radius: 20px;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.5s ease;
-}
-
-.header h2:hover {
-  background-color: black;
-  color: white;
-  cursor: pointer;
 }
 
 .header a:visited {
@@ -43,18 +34,6 @@
 
   font-size: 24px;
   font-weight: 500;
-}
-
-.header nav ul li {
-  transition: background-color 0.5s ease;
-  padding: 13px;
-  border-radius: 10px;
-}
-
-.header nav ul li:hover {
-  background-color: black;
-  color: white;
-  cursor: pointer;
 }
 
 .header nav ul a:visited {

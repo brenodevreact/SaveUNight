@@ -10,7 +10,7 @@
 .menu h3 {
   font-size: 24px;
   z-index: 10;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .menu h2 {
@@ -19,7 +19,7 @@
   z-index: 10;
   color: white;
   max-width: 70%;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .menu h4 {
@@ -27,7 +27,7 @@
   z-index: 10;
   font-size: 24px;
   color: white;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .miranha {
@@ -43,16 +43,25 @@
 }
 
 .menu button {
-  width: 273px;
-  height: 97px;
-  background-color: var(--brand1);
-  border-radius: 20px;
+  width: 200px;
+  height: 63px;
+  border-radius: 10px;
   border: none;
   color: #000000;
 
-  font-size: 40px;
-  font-weight: bolder;
+  background-color: white;
+
+  font-size: 32px;
+  font-weight: 600;
   cursor: pointer;
+
+  transition: background-color 0.5s ease;
+}
+
+.menu button:hover {
+  background-color: black;
+  color: white;
+  /* background-color: var(--brand1); */
 }
 
 .divButton {
@@ -71,7 +80,21 @@
   position: absolute;
   left: 0px;
   top: 450px;
-  animation: float 7s ease-in-out infinite; /* Define a animação com duração de 3 segundos, usando a função de temporização ease-in-out e repetição infinita */
+  animation: float 7s ease-in-out infinite;
+}
+
+.container2 .miranha {
+  position: absolute;
+  right: 0px;
+  top: 100px;
+  animation: float2 7s ease-in-out infinite;
+}
+
+.streaming {
+  position: absolute;
+  right: 0px;
+  top: 100px;
+  animation: float2 7s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -100,5 +123,26 @@
 
   100% {
     transform: translate(0, 0) rotate(360deg); /* Define a posição final da imagem de volta à posição inicial sem translação e sem rotação */
+  }
+}
+
+@keyframes float2 {
+  0% {
+    transform: translate(
+      0,
+      0
+    ); /* Define a posição inicial da imagem sem nenhuma translação */
+  }
+  50% {
+    transform: translate(
+      0,
+      10px
+    ); /* Define a posição intermediária da imagem com uma translação de 10 pixels para baixo */
+  }
+  100% {
+    transform: translate(
+      0,
+      0
+    ); /* Define a posição final da imagem de volta à posição inicial sem nenhuma translação */
   }
 }

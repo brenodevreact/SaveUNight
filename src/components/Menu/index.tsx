@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import miranha from "../../assets/fotolateral.svg";
+import miranha from "../../assets/miranha.png";
 import poo from "../../assets/poo.png";
-import ellipsis from "../../assets/Ellipse.svg";
+import ellipsis from "../../assets/streaming2.png";
+import streaming from "../../assets/streaming.png";
 import "./menu.css";
 
 const Menu = () => {
@@ -25,12 +26,13 @@ const Menu = () => {
         </Link>
       </div>
 
-      <Image src={miranha} alt="Homem Aranha" className="miranha" />
+      {/* <div className="container2">
+        <Image src={miranha} alt="Homem aranha" className="miranha" />
+      </div>
 
       <div className="container">
-        <Image src={ellipsis} alt="ellipsis" className="ellipsis" />
         <Image src={poo} alt="Kung Fu Panda" className="poo poo2" />
-      </div>
+      </div> */}
     </div>
   );
 };

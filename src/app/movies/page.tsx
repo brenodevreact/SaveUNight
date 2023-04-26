@@ -2,10 +2,12 @@ import Filter from "@/components/Filter";
 import Image from "next/image";
 import Link from "next/link";
 import "../../styles/movies.css";
+import HeaderFilms from "@/components/Header_films";
 
 export default function Home() {
   return (
-    <main>
+    <main className="main-films">
+      <HeaderFilms />
       <div className="title-movies">
         <h1 className="title4">FILMES</h1>
 

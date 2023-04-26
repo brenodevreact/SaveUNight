@@ -3,7 +3,7 @@ import "./header.css";
 import Logo from "../../assets/logo.png";
 import Image from "next/image";
 
-const Header = () => {
+const HeaderFilms = () => {
   return (
     <header className="header">
       <Link href="/">
@@ -13,7 +13,7 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <Link href="/movies">FILMES</Link>
+            <Link href="/">HOME</Link>
           </li>
           <li>
             <Link href="/series">SÉRIES</Link>
@@ -27,4 +27,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderFilms;
