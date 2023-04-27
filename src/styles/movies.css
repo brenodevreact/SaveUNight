@@ -11,18 +11,32 @@
   gap: 28px;
 }
 
-.buttons-movies {
+.filter-divs {
   display: flex;
-  gap: 24px;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
 }
 
-.buttons-movies button {
-  background-color: var(--brand1);
+.filter-movies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
 
-  width: 187px;
-  height: 49px;
-  border-radius: 8px;
-
+.filter-movies select {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border-radius: 3px;
   border: none;
-  cursor: pointer;
+  padding: 10px;
+  outline: none;
+  background-color: none;
+}
+
+.filter-movies select option {
+  background-color: white;
 }

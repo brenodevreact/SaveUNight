@@ -11,12 +11,41 @@ export default function Home() {
       <div className="title-movies">
         <h1 className="title4">FILMES</h1>
 
-        <div className="buttons-movies">
-          <button className="text1">MAIS ASSISTIDOS</button>
-          <button className="text1">MAIORES NOTAS</button>
-          <button className="text1">CATEGORIAS</button>
-          <button className="text1">DURAÇÃO</button>
+        <div className="filter-divs">
+          <div className="filter-movies">
+            <label htmlFor="release">Ano de Lançamento</label>
+            <select name="release" id="release">
+              <option value="1920">1920</option>
+              <option value="1920">1920</option>
+              <option value="1920">1920</option>
+              <option value="1920">1920</option>
+              <option value="1920">1920</option>
+            </select>
+          </div>
+
+          <div className="filter-movies">
+            <label htmlFor="release">Ano de Lançamento</label>
+            <select name="release" id="release">
+              <option value="1920">1920</option>
+              <option value="1920">1920</option>
+              <option value="1920">1920</option>
+              <option value="1920">1920</option>
+              <option value="1920">1920</option>
+            </select>
+          </div>
+
+          <div className="filter-movies">
+            <label htmlFor="release">Ano de Lançamento</label>
+            <select name="release" id="release">
+              <option value="1920">1920</option>
+              <option value="1920">1920</option>
+              <option value="1920">1920</option>
+              <option value="1920">1920</option>
+              <option value="1920">1920</option>
+            </select>
+          </div>
         </div>
+
         <Filter />
       </div>
     </main>
